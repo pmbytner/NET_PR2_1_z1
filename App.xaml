@@ -8,5 +8,11 @@
     >
     <Application.Resources>
          
+        <Color x:Key="KolorRóżowy">#FAA</Color>
+        <SolidColorBrush x:Key="PędzelJednolityRóżowy" Color="{DynamicResource KolorRóżowy}"/>
+        <LinearGradientBrush x:Key="PędzelGradientowyBiałoRóżowy" EndPoint="1,1" StartPoint="0,0">
+            <GradientStop Color="White"/>
+            <GradientStop Color="{DynamicResource KolorRóżowy}" Offset="1"/>
+        </LinearGradientBrush>
     </Application.Resources>
 </Application>

@@ -11,7 +11,9 @@
     Height="600"
     Width="500"
     >
-    <Grid>
+    <Grid
+        Background="{DynamicResource PędzelGradientowyBiałoRóżowy}"
+        >
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition/>
@@ -23,16 +25,16 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
+
         <Label
-            Background="#FFDAAEAE"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             >
             Jakaś etykieta
         </Label>
         <Label
-            Background="#FFDAAEAE"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             Grid.Column="1"
@@ -40,7 +42,7 @@
             Druga etykieta
         </Label>
         <Label
-            Background="#FFDAAEAE"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             Grid.Column="2"
@@ -48,7 +50,7 @@
             Trzecia etykieta
         </Label>
         <Label
-            Background="#FFDAAEAE"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             Grid.Row="2"
@@ -56,7 +58,7 @@
             Czwarta etykieta
         </Label>
         <Label
-            Background="#FFDAAEAE"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             Grid.Column="1"
@@ -65,7 +67,7 @@
             Piąta etykieta
         </Label>
         <Label
-            Background="#FFDAAEAE"
+            Background="{DynamicResource PędzelJednolityRóżowy}"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             Grid.Column="2"
