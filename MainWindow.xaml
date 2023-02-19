@@ -12,6 +12,66 @@
     Width="500"
     >
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            >
+            Jakaś etykieta
+        </Label>
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Grid.Column="1"
+            >
+            Druga etykieta
+        </Label>
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Grid.Column="2"
+            >
+            Trzecia etykieta
+        </Label>
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Grid.Row="2"
+            >
+            Czwarta etykieta
+        </Label>
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Grid.Column="1"
+            Grid.Row="2"
+            >
+            Piąta etykieta
+        </Label>
+        <Label
+            Background="#FFDAAEAE"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Grid.Column="2"
+            Grid.Row="2"
+            >
+            Szósta etykieta
+        </Label>
     </Grid>
 </Window>
