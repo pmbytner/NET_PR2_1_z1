@@ -30,29 +30,19 @@
             ScrollViewer i StackPanel
         </Label>
         <ScrollViewer Grid.Row="1">
-            <ScrollViewer.Resources>
-                <Style
-                    TargetType="Label"
-                    BasedOn="{StaticResource {x:Type Label}}"
-                    >
-                    <Setter Property="Margin" Value="5"/>
-                    <Setter Property="BorderThickness" Value="5"/>
-                    <Setter Property="BorderBrush" Value="{DynamicResource PędzelGradientowyBiałoRóżowy}"/>
-                </Style>
-            </ScrollViewer.Resources>
             <StackPanel>
-                <Label>1</Label>
-                <Label>2</Label>
-                <Label>3</Label>
-                <Label>4</Label>
-                <Label>5</Label>
-                <Label>6</Label>
-                <Label>7</Label>
-                <Label>8</Label>
-                <Label>9</Label>
-                <Label>10</Label>
-                <Label>11</Label>
-                <Label>12</Label>
+                <Label Style="{DynamicResource L0}">1</Label>
+                <Label Style="{DynamicResource L0A}">2</Label>
+                <Label Style="{DynamicResource L0}">3</Label>
+                <Label Style="{DynamicResource L0A}">4</Label>
+                <Label Style="{DynamicResource L0}">5</Label>
+                <Label Style="{DynamicResource L0A}">6</Label>
+                <Label Style="{DynamicResource L0}">7</Label>
+                <Label Style="{DynamicResource L0A}">8</Label>
+                <Label Style="{DynamicResource L0}">9</Label>
+                <Label Style="{DynamicResource L0A}">10</Label>
+                <Label Style="{DynamicResource L0}">11</Label>
+                <Label Style="{DynamicResource L0A}">12</Label>
             </StackPanel>
         </ScrollViewer>
         <Label

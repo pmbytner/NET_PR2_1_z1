@@ -14,6 +14,10 @@
             <GradientStop Color="White"/>
             <GradientStop Color="{DynamicResource KolorRóżowy}" Offset="1"/>
         </LinearGradientBrush>
+        <LinearGradientBrush x:Key="PędzelGradientowyRóżowoBiały" EndPoint="1,1" StartPoint="0,0">
+            <GradientStop Color="{DynamicResource KolorRóżowy}"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
 
         <Style
             TargetType="Label"
@@ -21,6 +25,22 @@
             <Setter Property="Background" Value="{DynamicResource PędzelJednolityRóżowy}"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style
+            x:Key="L0"
+            TargetType="Label"
+            BasedOn="{StaticResource {x:Type Label}}"
+            >
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="5"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource PędzelGradientowyBiałoRóżowy}"/>
+        </Style>
+        <Style
+            x:Key="L0A"
+            TargetType="Label"
+            BasedOn="{StaticResource L0}"
+            >
+            <Setter Property="BorderBrush" Value="{DynamicResource PędzelGradientowyRóżowoBiały}"/>
         </Style>
     </Application.Resources>
 </Application>
