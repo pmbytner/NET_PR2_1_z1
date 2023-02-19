@@ -48,13 +48,49 @@
         <Label
             Grid.Column="1"
             >
-            Druga etykieta
+            WrapPanel poziomy
         </Label>
+        <WrapPanel
+            Grid.Column="1"
+            Grid.Row="1"
+            >
+            <Label Style="{DynamicResource L0}">1</Label>
+            <Label Style="{DynamicResource L0A}">2</Label>
+            <Label Style="{DynamicResource L0}">3</Label>
+            <Label Style="{DynamicResource L0A}">4</Label>
+            <Label Style="{DynamicResource L0}">5</Label>
+            <Label Style="{DynamicResource L0A}">6</Label>
+            <Label Style="{DynamicResource L0}">7</Label>
+            <Label Style="{DynamicResource L0A}">8</Label>
+            <Label Style="{DynamicResource L0}">9</Label>
+            <Label Style="{DynamicResource L0A}">10</Label>
+            <Label Style="{DynamicResource L0}">11</Label>
+            <Label Style="{DynamicResource L0A}">12</Label>
+        </WrapPanel>
         <Label
             Grid.Column="2"
             >
-            Trzecia etykieta
+            WrapPanel pionowy
         </Label>
+        <WrapPanel
+            Grid.Column="2"
+            Grid.Row="1"
+            Orientation="Vertical"
+            >
+            <Label Style="{DynamicResource L0}">1</Label>
+            <Label Style="{DynamicResource L0A}">2</Label>
+            <Label Style="{DynamicResource L0}">3</Label>
+            <Label Style="{DynamicResource L0A}">4</Label>
+            <Label Style="{DynamicResource L0}">5</Label>
+            <Label Style="{DynamicResource L0A}">6</Label>
+            <Label Style="{DynamicResource L0}">7</Label>
+            <Label Style="{DynamicResource L0A}">8</Label>
+            <Label Style="{DynamicResource L0}">9</Label>
+            <Label Style="{DynamicResource L0A}">10</Label>
+            <Label Style="{DynamicResource L0}">11</Label>
+            <Label Style="{DynamicResource L0A}">12</Label>
+        </WrapPanel>
+            
         <Label
             Grid.Row="2"
             >
