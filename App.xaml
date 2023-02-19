@@ -14,5 +14,13 @@
             <GradientStop Color="White"/>
             <GradientStop Color="{DynamicResource KolorRóżowy}" Offset="1"/>
         </LinearGradientBrush>
+
+        <Style
+            TargetType="Label"
+            >
+            <Setter Property="Background" Value="{DynamicResource PędzelJednolityRóżowy}"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
     </Application.Resources>
 </Application>
