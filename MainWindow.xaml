@@ -77,18 +77,42 @@
             Grid.Row="1"
             Orientation="Vertical"
             >
-            <Label Style="{DynamicResource L0}">1</Label>
-            <Label Style="{DynamicResource L0A}">2</Label>
-            <Label Style="{DynamicResource L0}">3</Label>
-            <Label Style="{DynamicResource L0A}">4</Label>
-            <Label Style="{DynamicResource L0}">5</Label>
-            <Label Style="{DynamicResource L0A}">6</Label>
-            <Label Style="{DynamicResource L0}">7</Label>
-            <Label Style="{DynamicResource L0A}">8</Label>
-            <Label Style="{DynamicResource L0}">9</Label>
-            <Label Style="{DynamicResource L0A}">10</Label>
-            <Label Style="{DynamicResource L0}">11</Label>
-            <Label Style="{DynamicResource L0A}">12</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >1</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >2</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >3</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >4</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >5</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >6</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >7</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >8</Label>
+            <Label
+                Template="{DynamicResource LTemplate1}"
+                Style="{DynamicResource L1}"
+                >9</Label>
         </WrapPanel>
             
         <Label

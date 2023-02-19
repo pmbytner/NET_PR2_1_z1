@@ -42,5 +42,53 @@
             >
             <Setter Property="BorderBrush" Value="{DynamicResource PędzelGradientowyRóżowoBiały}"/>
         </Style>
+        <Style
+            x:Key="L1"
+            TargetType="Label"
+            >
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <ControlTemplate
+            x:Key="LTemplate1"
+            TargetType="{x:Type Label}"
+            >
+            <Border
+                Background="{TemplateBinding Background}"
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                Padding="{TemplateBinding BorderThickness}"
+                SnapsToDevicePixels="true"
+                >
+                <Border
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    Padding="{TemplateBinding Padding}"
+                    SnapsToDevicePixels="true"
+                    >
+                    <ContentPresenter
+                        HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                        RecognizesAccessKey="True"
+                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                        />
+                </Border>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger
+                    Property="IsEnabled"
+                    Value="false"
+                    >
+                    <Setter
+                        Property="Foreground"
+                        Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"
+                        />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
     </Application.Resources>
 </Application>
